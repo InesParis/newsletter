@@ -32,9 +32,11 @@ section {
   margin: 0 10px;
   background-color: #d8bfd8;
   border-radius: 7px;
+  text-decoration: none;
 }
 .brand:hover {
-  color: black;
+  color: #5d3a66;
+  background-color: #f4f4f4;
   transform: scale(1.2);
   transition: all 150ms ease-in-out;
 }
