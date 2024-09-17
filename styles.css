@@ -2,9 +2,16 @@
   background-color: #f4f4f4;
   color: #333333;
 }
-.container {
-  background-color: #d8bfd8;
+.hero {
+  padding: 80px 20px;
+  display: block;
+  background: #d8bfd8;
 }
+.container {
+  border-radius: 10px;
+  padding: 10px;
+}
+
 h1,
 h2 {
   text-align: center;
@@ -15,11 +22,28 @@ section {
   padding: 100px;
   max-width: 100%;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
-
+.brand {
+  color: black;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+  margin: 0 10px;
+  background-color: #d8bfd8;
+  border-radius: 7px;
+}
+.brand:hover {
+  color: black;
+  transform: scale(1.2);
+  transition: all 150ms ease-in-out;
+}
 footer {
   margin: 0 auto;
-  padding: 100px;
+
   max-width: 100%;
   margin-bottom: 10px;
+  padding: 80px 20px;
+  display: block;
+  background: #d8bfd8;
 }
